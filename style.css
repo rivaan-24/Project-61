@@ -1,0 +1,66 @@
+html{
+ scroll-behavior:smooth;   
+}
+body{
+  text-align:center;
+  background: rgb(12,232,232);
+background: linear-gradient(0deg, rgba(12,232,232,1) 30%, rgba(89,253,45,1) 50%);
+  background-repeat:no-repeat;
+}
+.line{
+    width: 100px;
+    height: 6px;
+    background-color: green;
+    margin: auto;
+    }
+#basketball{
+  border-radius:50%;
+  width:400px;
+ border-style:solid;
+  border-width:5px;
+  border-color:red;
+}
+#hobby{
+  color:yellow;
+  font-size:32px;
+  font-family: 'Ubuntu', sans-serif;
+}
+#bio{
+  padding:20px;
+ font-size:20px;
+  text-align:center;
+  font-family: 'Akaya Telivigala', cursive;
+  color:red;
+  font-weight:normal;
+}
+.menu{
+    list-style: none;
+    font-family: 'Comfortaa', cursive;
+    float: left;
+    top: 10;
+left: 30;
+    cursor: pointer;
+    color: red;
+}
+.link:hover{
+background-color: red;
+}
+.link{
+    float: left;
+    padding: 9px;
+    font-size: 20px;
+}
+img{
+transition: transform .2s;
+    border: 10px dashed green;
+}
+img:hover{
+    transform: scale(0.9);
+}
+img{
+transition: transform .2s;
+    border: 10px dashed green;
+}
+img:hover{
+    transform: scale(0.9);
+}
